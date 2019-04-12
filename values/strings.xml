@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_landing">Booster App - Admin</string>
+    <string name="title_upload">Upload Files</string>
+    <string name="title_grades">View Grades</string>
+    <string name="title_pdf">View Prints</string>
+    <string name="title_quiz">Quiz Time</string>
+    <string name="title">Math Booster</string>
+    <string name="title_video">Video Tutorials</string>
+
+
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/app_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/question_image"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="528dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="6dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question_text"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:text="What is this question"
+            android:textAlignment="center"
+            android:textColor="#393737"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/timertxt"
+            android:layout_width="51dp"
+            android:layout_height="29dp"
+            android:text="00:00" />
+
+        <Button
+            android:id="@+id/info"
+            android:layout_width="85dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="155dp"
+            android:background="@drawable/information"
+            android:elevation="@android:dimen/app_icon_size"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:paddingTop="5dp">
+
+            <Button
+                android:id="@+id/answerA"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="#03A9F4"
+                android:padding="10dp"
+                android:text="ANSWER A"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/answerB"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#03A9F4"
+                android:padding="10dp"
+                android:text="ANSWER B"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:paddingTop="5dp">
+
+            <Button
+                android:id="@+id/answerC"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="#03A9F4"
+                android:fontFamily="casual"
+                android:padding="10dp"
+                android:text="ANSWER C"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/answerD"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#03A9F4"
+                android:fontFamily="casual"
+                android:padding="10dp"
+                android:text="ANSWER D"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

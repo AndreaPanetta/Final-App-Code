@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00695c</color>
+    <color name="colorAccent">#b2dfdb</color>
+    <color name="bgBottomNavigation">#fe485a</color>
+    <color name="teacherPrimary">#2d2f3c</color>
+    <color name="teacherPrimaryDark">#030516</color>
+    <color name="teacherAccent">#565866</color>
+
+    <color name="newcolorPrimary">#3F51B5</color>
+    <color name="newcolorPrimaryDark">#303F9F</color>
+    <color name="newcolorAccent">#FF4081</color>
+    <color name="gray_background">#757575</color>
+    <color name="yellow">#FFBB33</color>
+
+
+
+</resources>

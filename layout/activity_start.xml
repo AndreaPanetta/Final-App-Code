@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/app_bg"
+    android:layout_height="match_parent"
+    tools:context=".Quiz.Start">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/quiz"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="198dp"
+        android:layout_height="114dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="231dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="casual"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Start Quiz!"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
